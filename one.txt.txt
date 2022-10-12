@@ -1,0 +1,7 @@
+#!/bin/bash
+echo -e "enter file name which has data : \c";read a
+cat $a | sed -n 'p;n'
+while read line
+do
+echo $line
+done
